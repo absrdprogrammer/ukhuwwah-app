@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Kotlin App</string>
+    <string name="password_textView">Password</string>
+    <string name="username_textView">Username</string>
+    <string name="inputUsername_text">" Enter your username"</string>
+    <string name="inputPassword_text">Enter your password</string>
+    <string name="register_button">REGISTER</string>
+    <string name="registerQuestion_textView">Don\'t have an account?</string>
+    <string name="login_button">L O G I N</string>
+    <string name="question_checkBox">Remember Me</string>
+    <string name="login_text">Login</string>
+    <string name="tagline_text">Social Entreprise for Empowering Farmers</string>
+    <string name="agripedia_text">Agripedia</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

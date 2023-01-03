@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/registerPictures"
+        android:layout_width="0dp"
+        android:layout_height="293dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/signup_modified" />
+
+    <TextView
+        android:id="@+id/RegisterTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerPictures" />
+
+    <EditText
+        android:id="@+id/editTextPersonName"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/personImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/personImageView" />
+
+    <ImageView
+        android:id="@+id/personImageView"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RegisterTextView"
+        app:srcCompat="@drawable/user" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Phone ID"
+        android:inputType="phone"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/phoneImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/phoneImageView" />
+
+    <ImageView
+        android:id="@+id/phoneImageView"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personImageView"
+        app:srcCompat="@drawable/telephone" />
+
+    <EditText
+        android:id="@+id/editTextEmailID"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Email ID"
+        android:inputType="textEmailAddress"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/emailImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/emailImageView" />
+
+    <ImageView
+        android:id="@+id/emailImageView"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneImageView"
+        app:srcCompat="@drawable/mail" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewPassword" />
+
+    <ImageView
+        android:id="@+id/imageViewPassword"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailImageView"
+        app:srcCompat="@drawable/lock" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Home Address"
+        android:inputType="text"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPassword"
+        app:srcCompat="@drawable/address" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/custom_button2"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAddress" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
